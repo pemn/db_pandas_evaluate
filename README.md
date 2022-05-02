@@ -64,5 +64,14 @@ Este exemplo é semelhante ao comando head o unix.
  1. Cria uma coluna com o resultado de uma soma
  2. Renomeia a propria coluna anterior para outro nome
  3. Filtra linhas onde a condição for verdadeiras
+## Example 3 - Dados - Tabela1
+geocod	| product	| value	| mask
+---|---|---|---
+aa|ore|1|1
+bb|waste|1|1
+aa|ore|10|0
+bb|waste|10|0
+aa|ore|100|-99
+bb|waste|100|-99
 
 
