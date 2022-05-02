@@ -7,11 +7,12 @@ Este script possui alguma funcionalidades gerais que podem ser utilizadas em aut
  - Renomear colunas
  - Filtrar linhas baseado em um expressão
  - Converter arquivos entre os formatos suportados:
-  * Xlsx, xls, csv
-  * Shp
-  * Dgd
-  * 00t
-  * Bmf
-  * Obj
-  * json
+   * Xlsx, xls, csv
+   * Shp
+   * Dgd
+   * 00t
+   * Bmf
+   * Obj
+   * json
+  
 ![screenshot1](./assets/screenshot1.png)
