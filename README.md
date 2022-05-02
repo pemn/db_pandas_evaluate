@@ -41,11 +41,11 @@ Esse modo é útil em processos onde uma etapa posterior espera que determinadas
 ## Modo substituir valores nulos em uma coluna por outra
 ![screenshot5](./assets/screenshot5.png?raw=true)  
 Esse modo permite substiuir apenas as linhas que contenham valores nulo em uma coluna por outra coluna.  
-Formato:
-`colunaA || colunaB`
+Formato:  
+`colunaA || colunaB`  
 Quando o valor da coluna A for nulo, usa o valor da coluna B. Caso a coluna A tenha valor, será usada o seu valor.  
 O resultado dessa operação será gravado na coluna definida em name e não há problema ser for uma das colunas de entrada.
-Não é possível usar um valor fixo, ele requer duas colunas para funcionar. Ex.: `colunaA || -99` *não funciona.*
+Não é possível usar um valor fixo, ele requer duas colunas para funcionar. Ex.: `colunaA || -99` **não funciona.**
 ## Modo de filtro
 ![screenshot6](./assets/screenshot6.png?raw=true)  
 Se apenas o campo “expression” estiver prenchido, o script irá filtrar as linhas, deixando apenas onde o resultado da expressão for verdadeiro.  
